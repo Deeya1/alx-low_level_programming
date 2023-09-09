@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  main - this sdescribes the main funtion of the code 
+ *  main - this sdesribes the main funtion of the code 
  *  Return: 0
  */
 int main(void)
