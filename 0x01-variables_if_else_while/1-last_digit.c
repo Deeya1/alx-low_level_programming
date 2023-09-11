@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
 #include <stdio.h>
+/* betty style doc for function main goes there */
 /**
-* main - this is a funtion 
+* main - this is a funtion
 * Return: number generated
 */
-/* more headers goes there */
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
@@ -23,9 +23,9 @@ else if (m < 6 && m != 0)
 {
 printf("last digit of %d is %d and is less than 6 and not 0\n", n, m);
 }
-else
+else if (m == 0)
 {
-printf("last digit of %d and is 0\n", n, m);
+printf("last digit of %d and is zero\n", n, m);
 }
 return (0);
 }
